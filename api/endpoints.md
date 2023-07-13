@@ -24,6 +24,7 @@ Endpoint: `/api/character`
 Content:
 ```
 'action': 'character create',  // required
+'community': (community ID),  // required
 'name': (character name, case-sensitive),  // required, name of the character
 'member': (member ID),  // required, member to assign the character to
 'roles': [(role ID 1), (role ID 2), ...],  // optional, roles to assign the character
@@ -43,6 +44,7 @@ Endpoint: `/api/character`
 Content:
 ```
 'action': 'character role add',  // required
+'community': (community ID),  // required
 'character': (character id),  // required, ID of the character
 'roles': [(role ID 1), (role ID 2), ...]  // required, roles to assign the character
 ```
@@ -56,6 +58,7 @@ Endpoint: `/api/character`
 Content:
 ```
 'action': 'character role remove',  // required
+'community': (community ID),  // required
 'character': (character id),  // required, ID of the character
 'roles': [(role ID 1), (role ID 2), ...]  // required, roles to remove from the character
 ```
@@ -69,6 +72,7 @@ Endpoint: `/api/character`
 Content:
 ```
 'action': 'character stat add',  // required
+'community': (community ID),  // required
 'character': (character id),  // required, ID of the character
 'stats': {  // required, stats to assign the character
             (stat ID 1) : (stat value),
@@ -86,6 +90,7 @@ Endpoint: `/api/character`
 Content:
 ```
 'action': 'character role remove',  // required
+'community': (community ID),  // required
 'character': (character id),  // required, ID of the character
 'stats': [(stat ID 1), (stat ID 2), ...]  // required, stats to remove
 ```
@@ -99,6 +104,7 @@ Endpoint: `/api/character`
 Content:
 ```
 'action': 'character name update',  // required
+'community': (community ID),  // required
 'character': (character id),  // required, ID of the character
 'name': (new character name),  // required, new name of the character
 ```
