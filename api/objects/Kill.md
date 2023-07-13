@@ -15,3 +15,4 @@ A Kill is a boss kill. Kills generally award points and can drop items that play
 * Set the value towards a system
 * Add/remove attendees
 * Add/remove drops
+* Delete the kill
