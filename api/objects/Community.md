@@ -6,7 +6,7 @@ A Community represents a guild, clan, server, or other organization. User accoun
 * Titles (`Title` list)
 * Members (`Member` list)
 * Characters (`Character` list)
-* Point Systems (`PointSystem` list)
+* Point Systems (`System` list)
 * Classes (`Class` list)
 * Stats (`Stat` list)
 * Community Name (`string`)
