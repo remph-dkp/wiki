@@ -22,8 +22,10 @@ A Title is a Member role. For example, a _General_ or a _Guardian_.
 7. Invite new Members
 8. Edit Member name
 9. Edit Member titles
+10. Remove Members
 
-10. Create new Characters
-11. Edit Character name
-12. Edit Character roles
-13. Add/Remove Character to Members
+11. Create new Characters
+12. Edit Character name
+13. Edit Character roles
+14. Add/Remove Character to Members
+15. Delete Characters
