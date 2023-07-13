@@ -9,3 +9,4 @@ A Stat is an integer in-game character attribute. These can be base stats (e.g.,
 
 ### Functions
 * Set the Stat name, description
+* Delete the stat
