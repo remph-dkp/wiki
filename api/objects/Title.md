@@ -1,6 +1,6 @@
 # Title
 
-A Title is a Member role.
+A Title is a Member role. For example, a _General_ or a _Guardian_.
 
 ### Properties
 * Name (`string`)
