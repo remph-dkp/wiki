@@ -2,6 +2,8 @@
 
 All API calls send POST requests, and all responses use a JSON payload. 
 
+The endpoint for all requests is: `/api`
+
 The POST request must contain the following fields
 
 ```
@@ -19,8 +21,6 @@ The POST request must contain the following fields
 
 Create a new community in the community.
 
-Endpoint: `/api/community`
-
 Content:
 ```
 'action': 'community create',  // required
@@ -31,8 +31,6 @@ Content:
 #### Add a Role
 
 Add a role to a community if it doesn't already exist.
-
-Endpoint: `/api/community`
 
 Content:
 ```
@@ -45,8 +43,6 @@ Content:
 
 Remove a role from a community.
 
-Endpoint: `/api/community`
-
 Content:
 ```
 'action': 'community role remove',  // required
@@ -57,8 +53,6 @@ Content:
 #### Update a Stat
 
 Add a stat to a community, or update the stat if it already exist.
-
-Endpoint: `/api/community`
 
 Content:
 ```
@@ -71,8 +65,6 @@ Content:
 
 Removes a stat from a community
 
-Endpoint: `/api/community`
-
 Content:
 ```
 'action': 'community role remove',  // required
@@ -83,8 +75,6 @@ Content:
 #### Update Community Name
 
 Update a community's name
-
-Endpoint: `/api/community`
 
 Content:
 ```
@@ -98,8 +88,6 @@ Content:
 #### Create a Character
 
 Create a new character in the community.
-
-Endpoint: `/api/character`
 
 Content:
 ```
@@ -118,8 +106,6 @@ Content:
 #### Add a Role
 
 Add a role to a character if it doesn't already exist on the character.
-
-Endpoint: `/api/character`
 
 Content:
 ```
@@ -147,8 +133,6 @@ Content:
 
 Add a stat to a character, or update the stat if it already exists on the character.
 
-Endpoint: `/api/character`
-
 Content:
 ```
 'action': 'character stat add',  // required
@@ -165,8 +149,6 @@ Content:
 
 Removes a stat from a character
 
-Endpoint: `/api/character`
-
 Content:
 ```
 'action': 'character role remove',  // required
@@ -178,8 +160,6 @@ Content:
 #### Update Character Name
 
 Update a character's name
-
-Endpoint: `/api/character`
 
 Content:
 ```
