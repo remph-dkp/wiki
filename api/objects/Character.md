@@ -5,10 +5,9 @@ A Character is a toon in the game. Each Character is associated to at least one 
 ### Properties
 * Name (`string`)
 * Class (`Class`)
-* Level (`int`)
 * Roles (`Role` list)
 * Stats (`Stat` list)
 
 ### Functions
-* Set the Character name, class, level, stats
-* Add a Role to the Character
+* Set the Character name, class, stats
+* Add/remove a Role to the Character
