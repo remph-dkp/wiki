@@ -90,7 +90,7 @@ Content:
 'stats': [(stat ID 1), (stat ID 2), ...]  // required, stats to remove
 ```
 
-### Update Character Name
+#### Update Character Name
 
 Update a character's name
 
