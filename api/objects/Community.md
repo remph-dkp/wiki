@@ -7,7 +7,6 @@ A Community represents a guild, clan, server, or other organization. User accoun
 * Members (`Member` list)
 * Characters (`Character` list)
 * Point Systems (`System` list)
-* Classes (`Class` list)
 * Stats (`Stat` list)
 * Community Name (`string`)
 * Description (`string`)
@@ -19,5 +18,4 @@ A Community represents a guild, clan, server, or other organization. User accoun
 * Add/remove a Member
 * Add/remove a Character
 * Add/remove a Point System
-* Add/remove a Class
 * Add/remove a Stat
