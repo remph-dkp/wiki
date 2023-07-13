@@ -30,7 +30,7 @@ Content:
 
 #### Add a Role
 
-Add a role to a community if it doesn't already exist on the community.
+Add a role to a community if it doesn't already exist.
 
 Endpoint: `/api/community`
 
@@ -56,7 +56,7 @@ Content:
 
 #### Update a Stat
 
-Add a stat to a community, or update the stat if it already exists on the community.
+Add a stat to a community, or update the stat if it already exist.
 
 Endpoint: `/api/community`
 
