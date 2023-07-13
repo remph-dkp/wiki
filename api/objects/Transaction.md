@@ -11,3 +11,4 @@ A Transaction is a purchase, return, correction, or other point modification.
 
 ### Functions
 * Set the Transaction player, kill, amount, or reason
+* Delete the transaction
