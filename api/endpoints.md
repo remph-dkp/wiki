@@ -13,6 +13,86 @@ The POST request must contain the following fields
 }
 ```
 
+### Community
+
+#### Create a Community
+
+Create a new community in the community.
+
+Endpoint: `/api/community`
+
+Content:
+```
+'action': 'community create',  // required
+'name': (community name, case-sensitive),  // required, name of the community
+'template': (template ID)  // optional, template to base the community on
+```
+
+#### Add a Role
+
+Add a role to a community if it doesn't already exist on the community.
+
+Endpoint: `/api/community`
+
+Content:
+```
+'action': 'community role add',  // required
+'community': (community id),  // required, ID of the community
+'roles': [(role ID 1), (role ID 2), ...]  // required, roles to add to the community
+```
+
+#### Remove a Role
+
+Remove a role from a community.
+
+Endpoint: `/api/community`
+
+Content:
+```
+'action': 'community role remove',  // required
+'community': (community id),  // required, ID of the community
+'roles': [(role ID 1), (role ID 2), ...]  // required, roles to remove from the community
+```
+
+#### Update a Stat
+
+Add a stat to a community, or update the stat if it already exists on the community.
+
+Endpoint: `/api/community`
+
+Content:
+```
+'action': 'community stat add',  // required
+'community': (community id),  // required, ID of the community
+'stats': [(stat name 1), (stat name 2), ...]  // required, stat names to add to the community
+```
+
+#### Remove a Stat
+
+Removes a stat from a community
+
+Endpoint: `/api/community`
+
+Content:
+```
+'action': 'community role remove',  // required
+'community': (community id),  // required, ID of the community
+'stats': [(stat ID 1), (stat ID 2), ...]  // required, stats to remove
+```
+
+#### Update Community Name
+
+Update a community's name
+
+Endpoint: `/api/community`
+
+Content:
+```
+'action': 'community name update',  // required
+'community': (community id),  // required, ID of the community
+'name': (new community name),  // required, new name of the community
+```
+
 ### Character
 
 #### Create a Character
