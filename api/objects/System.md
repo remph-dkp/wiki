@@ -16,3 +16,14 @@ A System is a point system. This is the core data structure that visualizations 
 * Add/edit/remove a Transaction
 * Add/edit/remove a Claim
 * Add/edit/remove a Kill
+
+### Title Permissions
+* Create transactions
+* Modify transactions
+* Delete transactions
+* Create claims
+* Modify claims
+* Delete claims
+* Create kills
+* Modify kills
+* Delete kills
