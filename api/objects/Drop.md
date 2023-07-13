@@ -13,3 +13,4 @@ A Drop is an instance of an item gained from a kill. Drops are claimed by and aw
 * Set the kill
 * Set the item
 * Set the system
+* Delete the drop
