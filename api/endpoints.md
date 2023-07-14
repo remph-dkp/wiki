@@ -52,11 +52,11 @@ Content:
 
 #### Update a Stat
 
-Add a stat to a community, or update the stat if it already exist.
+Add a stat to a community, or update the stat if it already exists.
 
 Content:
 ```
-'action': 'community stat add',  // required
+'action': 'community stat update',  // required
 'community': (community id),  // required, ID of the community
 'stats': [(stat name 1), (stat name 2), ...]  // required, stat names to add to the community
 ```
@@ -72,6 +72,28 @@ Content:
 'stats': [(stat ID 1), (stat ID 2), ...]  // required, stats to remove
 ```
 
+#### Update a Title
+
+Add a title to a community, or update the title if it already exists.
+
+Content:
+```
+'action': 'community title update',  // required
+'community': (community id),  // required, ID of the community
+'titles': [(title name 1), (title name 2), ...]  // required, stat names to add to the community
+```
+
+#### Remove a Title
+
+Removes a title from a community
+
+Content:
+```
+'action': 'community title remove',  // required
+'community': (community id),  // required, ID of the community
+'titles': [(title ID 1), (title ID 2), ...]  // required, stats to remove
+```
+
 #### Update Community Name
 
 Update a community's name
@@ -81,6 +103,30 @@ Content:
 'action': 'community name update',  // required
 'community': (community id),  // required, ID of the community
 'name': (new community name),  // required, new name of the community
+```
+
+#### Update a Member
+
+Add a member to a community, or update the member.
+
+Content:
+```
+'action': 'community member update',  // required
+'community': (community id),  // required, ID of the community
+'member': (member id),  // required, ID of the member to add or update
+'name': (new member name),  // optional, name to set the member
+'titles': [title ID 1, title ID 2, ...],  // optional, titles to assign the member
+```
+
+#### Remove a Member
+
+Removes a member from a community
+
+Content:
+```
+'action': 'community member remove',  // required
+'community': (community id),  // required, ID of the community
+'member': (member id),  // required, ID the member to remove
 ```
 
 ### Character
