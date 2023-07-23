@@ -6,8 +6,10 @@ A Member is a player in a community. Each user is associated with one Member per
 * Name (`string`)
 * Description (`string`)
 * Characters (`Character` list)
+* Titles (`Title` list)
 
 ### Functions
 * Set the Member name, description
+* Add/remove Member titles
 * Add/remove a Character
 * Delete the Member
