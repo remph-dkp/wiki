@@ -7,7 +7,7 @@ A Kill is a boss kill. Kills generally award points and can drop items that play
 * Boss (`Boss`)
 * Drops (`Drop` list)
 * Attendance (`Character` list)
-* Creator (`Member`) : the player who generated the kill
+* Transactor (`Member`) : the player who generated the kill
 
 ### Functions
 * Set the boss
