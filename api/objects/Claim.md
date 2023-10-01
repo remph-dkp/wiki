@@ -3,6 +3,7 @@
 A Claim is a bid or claim for an item.
 
 ### Properties
+* Timestamp (`int`)
 * Player (`Character`)
 * Kill (`Kill`)
 * Item (`Item`)
