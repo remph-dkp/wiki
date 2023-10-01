@@ -12,6 +12,7 @@ A Community represents a guild, clan, server, or other organization. User accoun
 * Roles (`Role` list)
 * Stats (`Stat` list)
 * Bosses (`int` to `Boss` map)
+* Kills (`int` to `Kill` map)
 * Items (`int` to `Item` map)
 * Community Name (`string`)
 * Description (`string`)
