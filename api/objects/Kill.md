@@ -7,7 +7,6 @@ A Kill is a boss kill. Kills generally award points and can drop items that play
 * ID (`int`) : generated automatically and used to reference the kill
 * Drops (`Drop` list)
 * Attendance (`Character` list)
-* Value (`System` to `int` map)
 * Creator (`Member`) : the player who generated the kill
 
 ### Functions
