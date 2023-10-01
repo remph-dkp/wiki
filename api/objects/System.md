@@ -5,8 +5,8 @@ A System is a point system. This is the core data structure that visualizations 
 ### Properties
 * Name (`string`)
 * Description (`string`)
-* Transaction Ledger (`Transaction` list)
-* Claim Ledger (`Claim` list)
+* Transaction Ledger (`int` to `Transaction` map)
+* Claim Ledger (`int` to `Claim` map)
 * Kill Ledger (`Kill` list)
 * Permissions (`Title` to `int` map)
 
