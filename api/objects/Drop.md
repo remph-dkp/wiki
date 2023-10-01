@@ -7,6 +7,7 @@ A Drop is an instance of an item gained from a kill. Drops are claimed by and aw
 * Item (`Item`) : reference to the item template
 * System (`System`) : reference to the point system this drop belongs to
 * Claims (`Claim` list) : reference to all claimants, pulled from the System's Claim Ledger
+* Owner (`Character`) : reference to the character who owns the drop
 * Transactor (`Member`) : the player who created this drop
 
 ### Functions
