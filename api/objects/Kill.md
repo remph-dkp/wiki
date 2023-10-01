@@ -3,8 +3,8 @@
 A Kill is a boss kill. Kills generally award points and can drop items that players can claim.
 
 ### Properties
-* Boss (`Boss`)
 * ID (`int`) : generated automatically and used to reference the kill
+* Boss (`Boss`)
 * Drops (`Drop` list)
 * Attendance (`Character` list)
 * Creator (`Member`) : the player who generated the kill
