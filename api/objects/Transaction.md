@@ -4,7 +4,7 @@ A Transaction is a purchase, return, correction, or other point modification.
 
 ### Properties
 * Player (`Character`)
-* Kill (`Kill`)
+* KillId (`int32`)
 * Amount (`int`)
 * Reason (`string`)
 * Transactor (`Member`)
