@@ -5,6 +5,7 @@ A System is a point system. This is the core data structure that visualizations 
 ### Properties
 * Name (`string`)
 * Description (`string`)
+* Raids (`int` to `float` map) : the point value of each component boss ID
 * Transaction Ledger (`int` to `Transaction` map)
 * Claim Ledger (`int` to `Claim` map)
 * Permissions (`Title` to `int` map)
