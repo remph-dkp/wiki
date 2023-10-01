@@ -7,7 +7,6 @@ A System is a point system. This is the core data structure that visualizations 
 * Description (`string`)
 * Transaction Ledger (`int` to `Transaction` map)
 * Claim Ledger (`int` to `Claim` map)
-* Kill Ledger (`Kill` list)
 * Permissions (`Title` to `int` map)
 
 ### Functions
